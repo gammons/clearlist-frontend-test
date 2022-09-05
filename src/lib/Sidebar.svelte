@@ -1,9 +1,4 @@
-<script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
-</script>
-
-<div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+<div class="sidebar d-flex flex-column flex-shrink-0 p-3 text-white bg-dark">
   <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
     <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
     <span class="fs-4">Sidebar</span>
@@ -57,23 +52,8 @@
   </div>
 </div>
 
-<div class="container" style="width: 280px;">
-  <h1>test</h1>
-</div>
-
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
+  .sidebar {
+    height: 100vh;
   }
 </style>
